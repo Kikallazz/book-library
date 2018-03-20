@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <script src="C:\Users\User\Documents\jQuery\jquery-3.3.1.js"></script>
+      <script src="js/main.js"></script>
+      <title>Demo</title>
+  </head>
+
+  <body id="main">
+    <h1 align="center">Collections</h1>
+
+    <div id="lesser">
+      <span>
+          <span class="one">
+
+            Book Title:<br>
+
+            <input class="collector" id="bookName" name="name" value="Enter Details"
+              onfocus="if (this.value=='Enter Details') this.value='';">
+              </input>
+
+            <br>
+            Book Author:<br>
+
+            <input class="collector" id="bookAuthor" name="name" value="Enter Details"
+              onfocus="if (this.value=='Enter Details') this.value='';">
+            </input>
+
+            <br>
+            Book Genre:<br>
+
+            <input class="collector" id="bookGenre" name="name" value="Enter Details"
+              onfocus="if (this.value=='Enter Details') this.value='';">
+            </input>
+
+            <br>
+            Book Sub Genre (Optional):<br>
+
+            <input class="collector" id="bookSubGenre" name="name" value="Enter Details"
+              onfocus="if (this.value=='Enter Details') this.value='';">
+            </input>
+
+            <br>
+
+            Book Summary:<br>
+
+            <textarea class="collector" id="bookSummary" name="name" rows="8"
+             cols="80" value="Enter Details"
+             onfocus="if (this.value=='Enter Details') this.value='';">
+            </textarea>
+
+            <br>
+          </span>
+
+          <span class="two">
+            <select class="collectors" name="test-collection" id="testc" size="10">
+              <option>test1</option>
+              <option>test2</option>
+            </select>
+            <button id="changeOutput">output</button>
+            <textarea class="collectors" id="testOutput" name="name" rows="8"
+              cols="80" readonly>
+            </textarea>
+            <p id="outputName"></p>
+            <p id="outputAuthor"></p>
+            <p id="outputGenre"></p>
+            <p id="outputSubGenre"></p>
+            <p id="outputSummary"></p>
+          </span>
+
+        <p id="tester"></p>
+
+      </span>
+
+      <br><br>
+
+      <div class="three">
+        <textarea name="name" id="testSearch" cols="30" rows="10">soiercha</textarea>
+      </div>
+
+    </div>
+  </body>
+</html>
