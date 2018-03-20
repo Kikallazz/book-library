@@ -1,0 +1,95 @@
+body {
+  background-color: grey;
+  color: lime;
+  width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+a {
+  color: darkblue;
+}
+
+#main {
+  width: 900px;
+  margin-top: 100px;
+  margin-left: auto;
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(100, 100, 100);
+}
+
+#lesser {
+  width: 850px;
+  margin-top: 10px;
+  margin-left: auto;
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(180, 180, 180);
+  opacity: 0.6;
+  min-height: 600px;
+}
+
+.one {
+    background: rgba(66, 134, 244, 0.8);
+    padding: 10px;
+    float: left;
+    width: 400px;
+    min-height: 430px;
+}
+
+.two {
+  background: rgba(66, 134, 244, 0.8);
+  padding: 10px;
+  float: right;
+  width: 400px;
+  min-height: 430px;
+}
+
+.three {
+  background: rgba(50,205,50,0.2);
+  width: 830px;
+  padding: 10px;
+  min-height: 100px;
+  margin-top: 405px;
+  margin-left: auto;
+}
+
+.collectors {
+  color: lime;
+  background-color: darkgrey;
+  border: solid 2px black;
+}
+
+.collector {
+  color: lime;
+  background-color: darkgrey;
+  border: solid 2px black;
+}
+
+#testSearch {
+  color: lime;
+  background-color: white;
+  border: solid 1px darkgrey;
+  height: 20px;
+  width: 200px;
+}
+
+textarea {
+  margin-top: 20px;
+  max-width: 150px;
+  max-height: 100px;
+}
+
+select {
+  margin-top: 20px;
+  max-height: 100px;
+  min-width: 75px;
+}
